@@ -1,0 +1,82 @@
+/* Style Kustom */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    overflow: hidden;
+    background-color: red;
+}
+
+.tablink {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 5px;
+    background-color: #ddd;
+    font-size: 18px;
+}
+
+.tablink.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #1b09c4;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #0cc6df;
+}
+
+#resume {
+    margin-top: 20px;
+    font-weight: bold;
+}
